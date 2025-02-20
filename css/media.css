@@ -1,7 +1,7 @@
 
 @media screen and (max-width:576px) {
     .container{
-        width: 94%;
+        width: 100%;
     }
     .navbar-collapse{
         width: 95%;
@@ -46,6 +46,10 @@
     }
     .about .about-content h5{
         margin-top: 20px;
+    }
+  .count .container
+    {
+        width: 93%;
     }
     .count .inner{
         margin-bottom: 30px;
