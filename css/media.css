@@ -1,0 +1,173 @@
+
+@media screen and (max-width:576px) {
+    .container{
+        width: 100%;
+    }
+    .navbar-collapse{
+        width: 95%;
+        position: absolute;
+        left: 2%;
+        top: 60px;
+        background-color: var(--defult-color) ;
+        padding: 20px;
+        height: 90vh;
+    }
+  .navbar .nav-link{
+        transition:  all .5s;
+        color: var(--secondary-color);
+    }
+    .navbar .nav-link:hover{
+        color: var(--primary-color);
+    }
+    .navbar .active{
+        color: var(--primary-color) !important;
+    }
+    
+}
+
+    .home h1{
+        font-size: 48px;
+    }
+    .home span{
+        font-size: 24px;
+    }
+    .about .container{
+        width: 90%;
+    }
+    .about .container .box{
+        padding: 60px 30px;
+    
+    }
+    .about .about-info .info-img img{
+        margin-bottom: 30px;
+    }
+    .about .skill{
+        margin-top: 10px;
+    }
+    .about .about-content h5{
+        margin-top: 20px;
+    }
+    .count .inner{
+        margin-bottom: 30px;
+    }
+    .carousle .item p{
+        padding: 0;
+    }
+    .contact .container{
+        width: 90%;
+        padding: 1.5rem ;
+    }
+    .contact .inner h5{
+        margin-top: 20px;
+    }
+
+@media screen and (min-width:576px) and (max-width:768px){
+    .navbar-collapse{
+        width: 95%;
+        position: absolute;
+        left: 2%;
+        top: 60px;
+        background-color: var(--defult-color);
+        padding: 20px;
+        height: 90vh;
+    }
+.navbar .nav-link{
+        transition:  all .5s;
+        color: var(--secondary-color);
+    }
+    .navbar .nav-link:hover{
+        color: var(--primary-color);
+    }
+    .navbar .active{
+        color: var(--primary-color) !important;
+    }
+    .title p{
+        font-size: 16px;
+    }
+    .home h1{
+        font-size: 48px;
+    }
+    .about .container .box{
+        padding: 60px 30px;
+    
+    }
+    .carousle .item p{
+        padding: 0;
+    }
+    .contact .container{
+        padding: 1.5rem ;
+    }
+    .contact .inner h5{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .container{
+        width: 85%;
+    }
+
+    .navbar-collapse{
+        width: 95%;
+        position: absolute;
+        left: 2%;
+        top: 60px;
+        background-color: var(--defult-color);
+        padding: 20px;
+        height: 90vh;
+    }
+.navbar .nav-link{
+        transition:  all .5s;
+        color: var(--secondary-color);
+    }
+    .navbar .nav-link:hover{
+        color: var(--primary-color);
+    }
+    .navbar .active{
+        color: var(--primary-color) !important;
+    }
+    .home h1{
+       font-weight: 72px;
+       max-width: 500px;
+    }
+    .about .container .box{
+        padding: 60px 30px;
+        gap: 5px;
+    
+    }
+    .about .about-info .info-img img{
+        width: 100px;
+        
+    }
+    
+    .Services .service-content .title-a{
+        font-size: 22.5px;
+    }
+    .Services .service-content p{
+        font-size: 14px !important;
+    }
+    .Work .work-info{
+        padding: 0;
+    }
+    
+    .carousle .item p{
+       
+            padding: 0 4rem;
+    }
+    .card-footer{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    .carousle .item p{
+       
+        padding: 0 7.5rem;
+}
+
+}
+@media screen and (min-width:1200px) and (max-width:1400px){
+    .carousle .item p{
+       
+        padding: 0 7.5rem;
+}
+}
